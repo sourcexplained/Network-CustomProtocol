@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{C8701538-D38D-49AD-929B-5BBA5E7911C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{02A50C9A-BDF4-4C3F-B1CF-D97D618DB550}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PacketLib", "PacketLib\PacketLib.vcxproj", "{AD260DE9-968C-4ECF-B05C-CBC4F51EA782}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8701538-D38D-49AD-929B-5BBA5E7911C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8701538-D38D-49AD-929B-5BBA5E7911C4}.Debug|Win32.Build.0 = Debug|Win32
+		{C8701538-D38D-49AD-929B-5BBA5E7911C4}.Release|Win32.ActiveCfg = Release|Win32
+		{C8701538-D38D-49AD-929B-5BBA5E7911C4}.Release|Win32.Build.0 = Release|Win32
+		{02A50C9A-BDF4-4C3F-B1CF-D97D618DB550}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02A50C9A-BDF4-4C3F-B1CF-D97D618DB550}.Debug|Win32.Build.0 = Debug|Win32
+		{02A50C9A-BDF4-4C3F-B1CF-D97D618DB550}.Release|Win32.ActiveCfg = Release|Win32
+		{02A50C9A-BDF4-4C3F-B1CF-D97D618DB550}.Release|Win32.Build.0 = Release|Win32
+		{AD260DE9-968C-4ECF-B05C-CBC4F51EA782}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD260DE9-968C-4ECF-B05C-CBC4F51EA782}.Debug|Win32.Build.0 = Debug|Win32
+		{AD260DE9-968C-4ECF-B05C-CBC4F51EA782}.Release|Win32.ActiveCfg = Release|Win32
+		{AD260DE9-968C-4ECF-B05C-CBC4F51EA782}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
